@@ -5,6 +5,27 @@
     color: #FFF5C0;
     background-color: #FF4646;
   }
+
+  
+  .Center_Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+  }
+
+  .About_Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this to your desired height */
+  }
+  
+  .About_inner {
+    text-align: center;
+  }
   
   .Nav_Options_Container {
     position: relative;
@@ -129,8 +150,8 @@
     width: 10rem;
     z-index: +8;
     position: relative;
-    left: 100%;
-    top: -24rem;
+    left: -220%;
+    top: -29rem;
   }
   
   img {
@@ -228,8 +249,8 @@
       width: 15rem;
       z-index: +8;
       position: relative;
-      left: -100%;
-      top: -160%;
+      left: -10%;
+      top: -16%;
     }
   
     .Nav_Options_Container {

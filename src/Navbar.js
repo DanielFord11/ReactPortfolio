@@ -1,13 +1,26 @@
 import React from 'react';
 
 function Navbar() {
+  const navStyle = {
+    display: 'flex',
+    justifyContent: 'space-around',
+    listStyle: 'none',
+    padding: 0,
+  };
+
+  const linkStyle = {
+    textDecoration: 'none',
+    padding: '2px 5px',
+    color: '#FFF5C0',
+  };
+
   return (
     <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <ul style={navStyle}>
+        <li><a style={linkStyle} href="#about">About</a></li>
+        <li><a style={linkStyle} href="#experience">Experience</a></li>
+        <li><a style={linkStyle} href="#work">Work</a></li>
+        <li><a style={linkStyle} href="#contact">Contact</a></li>
       </ul>
     </nav>
   );

@@ -34,7 +34,7 @@ Simply navigate through the different sections using the provided navigation. Us
 
 ## Acknowledgements
 
-This project is built based on a set of requirements provided by [insert source here].
+This project is built based on a set of requirements provided by DU.
 
 ## License
 
@@ -42,5 +42,5 @@ This project is licensed under the [insert license here] license.
 
 ## Contact
 
-For any inquiries or feedback, please reach out to the developer at [insert developer's email here].
+For any inquiries or feedback, please reach out to the developer at dannyford11@me.com.
 

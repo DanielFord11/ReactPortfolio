@@ -2,12 +2,12 @@ import React from 'react';
 
 function ResumeButton() {
   const handleDownloadResume = () => {
-    
-    const resumePath = '/path/to/your/resume.pdf';
+
+    const resumePath = '../Assets/DanielFordResume.pdf';
 
     const anchor = document.createElement('a');
     anchor.href = resumePath;
-    anchor.download = 'your_resume.pdf'; 
+    anchor.download = 'DanielFordResume.pdf'; 
     anchor.target = '_blank'; 
     anchor.click();
 

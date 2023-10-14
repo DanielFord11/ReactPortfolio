@@ -33,7 +33,7 @@ function About() {
             <img id="About_Photo" src={aboutImage} alt="About Me Photo" height="320rem" />
           </div>
 
-          <ul className="Skills">
+          <ul id="experience" className="Skills">
             <li>JavaScript</li>
             <li>Python</li>
             <li>Data Science</li>

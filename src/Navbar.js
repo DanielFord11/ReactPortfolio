@@ -17,9 +17,9 @@ function Navbar() {
   return (
     <nav>
       <ul style={navStyle}>
-        <li><a style={linkStyle} href="#about">About</a></li>
+        <li><a style={linkStyle} href="#About_Photo">About</a></li>
         <li><a style={linkStyle} href="#experience">Experience</a></li>
-        <li><a style={linkStyle} href="#work">Work</a></li>
+        <li><a style={linkStyle} href="#Project_Landing">Work</a></li>
         <li><a style={linkStyle} href="#contact">Contact</a></li>
       </ul>
     </nav>

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://danielford11.github.io/ReactPortfolio/",
+  "homepage": "https://danielford11.github.io/ReactPortfolio",
   "name": "my-react-app",
   "version": "1.0.0",
   "description": "A simple React app with a navigation bar",
@@ -10,7 +10,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages - d build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
